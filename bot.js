@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'x';
+
 
 const prefix = '+';
 
@@ -113,4 +113,4 @@ bot.on('message', message=>{
 
 })
 
-bot.login(process.env.token); 
+bot.login(process.env.BOT_TOKEN);
