@@ -40,7 +40,16 @@ var citb = [
     "Hasse Hallgren - 1988",
     "Hasse Hallgren - 2020",
 ]
-
+const millisToTime = function(milliseconds) {
+    let x = milliseconds / 1000;
+    let s = Math.floor(x % 60);
+    x /= 60;
+    let m = Math.floor(x % 60);
+    x /= 60;
+    let h = Math.floor(x % 24);
+    return h + " Timmar, " + m + " Minuter, " + s + " Sekunder";
+    
+};
 
 
 bot.on('ready', ()=>{ 
@@ -112,6 +121,10 @@ bot.on('message', message=>{
         .setDescription(citb[cit])
         message.channel.send(hasse);
         break;
+        //botinfo
+        case 'botinfo':
+        message.channel.send(":clock230: Ostbot har varit online " + millisToTime(bot.uptime));
+            break;
 
     }
 
