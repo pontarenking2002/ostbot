@@ -77,7 +77,7 @@ const millisToTime = function(milliseconds) {
 
 bot.on('ready', ()=>{ 
     console.log('This bot is online!');
-    bot.user.setActivity("Ostservern");
+    bot.user.setActivity("+help");
 })
 
 bot.on('message', message=>{
