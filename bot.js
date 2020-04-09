@@ -83,7 +83,8 @@ bot.on('message', message=>{
 
 
     let args = message.content.substring(prefix.length).split(" ");
-
+if(message.content.startsWith('vegan')){
+        message.reply('Vad fan säger du? SKA DU HA BAN?!?!?!?')}
     switch(args[0]){
         //pk
         case 'pk':
