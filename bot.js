@@ -116,6 +116,7 @@ if(message.content.startsWith('vegan')){
             {name: '+mrlisper', value: 'Bild på alfan i lisper släkten :exploding_head:'},
             {name: '+elvis', value: 'Random bilder på Elvis H :cowboy:'},
             {name: '+hasse', value: 'Kloka citat från Hasse Hallgren :cowboy:'},
+            {name: '+bög', value: 'Bevis på att PK är bög :face_vomiting: '},
             {name: '+clear x', value: 'Rensa x antal meddelanden :boom: '},
             )
         .setFooter('Skapad av Osthasse', 'https://assets.icanet.se/t_product_large_v1,f_auto/7318690053736.jpg')
