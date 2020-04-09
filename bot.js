@@ -31,6 +31,15 @@ var citat = [
     '"Dra på trissor!"',
     '"Dra ballen i gruset!"',
     '"Amfibiebilar är framtiden"',
+    '"Det är inte lätt när det är svårt"',
+    '"Nära skjuter ingen hare"',
+    '"Stor i orden men liten på jorden"',
+    '"Gråt inte över spilld mjöljk"',
+    '"En båt är alltid en båt"',
+    '"Anfall är bästa försvar"',
+    '"Bättre en fågel i handen än 10 i skogen"',
+    '"Den som säg i leken ger, får leken tåla"',
+    '"En hund är alltid en hund"',
 ]
 
 var citb = [
@@ -115,7 +124,7 @@ bot.on('message', message=>{
         break;
         //citat
         case 'hasse':
-        var cit = Math.floor(Math.random()*5);
+        var cit = Math.floor(Math.random()*15);
         const hasse = new Discord.MessageEmbed()
         .setTitle(citat[cit])
         .setDescription(citb[cit])
