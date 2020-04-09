@@ -5,6 +5,7 @@ const bot = new Discord.Client();
 
 const prefix = '+';
 
+
 var pkbilder = [
     " https://cdn.discordapp.com/attachments/557172397946437638/697187203788570665/Snapchat-567761806.jpg",
     "https://cdn.discordapp.com/attachments/557172397946437638/697187205659230258/Snapchat-1843747936.jpg",
@@ -25,15 +26,19 @@ var sbilder = [
    
 ]
 var citat = [
-    "Grisen är kokt när den är kokt",
-    "Jänkarna hade inga vapen på 1300 talet!",
-
+    '"Grisen är kokt när den är kokt"',
+    '"Jänkarna hade inga vapen på 1300 talet!"',
+    '"Dra på trissor!"',
+    '"Dra ballen i gruset!"',
+    '"Amfibiebilar är framtiden"',
 ]
 
 var citb = [
     "Hasse Hallgren - 1895",
     "Hasse Hallgren - 1675",
-
+    "Hasse Hallgren - 1524",
+    "Hasse Hallgren - 1988",
+    "Hasse Hallgren - 2020",
 ]
 
 
@@ -73,12 +78,12 @@ bot.on('message', message=>{
         .setTitle('OstBot Commands')
         
         .addFields(
-            {name: '+pk', value: 'Random bilder på PK'},
+            {name: '+pk', value: 'Random bilder på PK :flag_ro: '},
             
-            {name: '+mrlisper', value: 'Bild på alfan i lisper släkten'},
-            {name: '+elvis', value: 'Random bilder på Elvis H'},
-            
-            {name: '+clear x', value: 'Rensa x antal meddelanden'},
+            {name: '+mrlisper', value: 'Bild på alfan i lisper släkten :exploding_head:'},
+            {name: '+elvis', value: 'Random bilder på Elvis H :cowboy:'},
+            {name: '+hasse', value: 'Kloka citat från Hasse Hallgren :cowboy:'},
+            {name: '+clear x', value: 'Rensa x antal meddelanden :boom: '},
             )
         .setFooter('Skapad av Osthasse', 'https://assets.icanet.se/t_product_large_v1,f_auto/7318690053736.jpg')
         .setColor('#fff700')
@@ -101,7 +106,7 @@ bot.on('message', message=>{
         break;
         //citat
         case 'hasse':
-        var cit = Math.floor(Math.random()*2);
+        var cit = Math.floor(Math.random()*5);
         const hasse = new Discord.MessageEmbed()
         .setTitle(citat[cit])
         .setDescription(citb[cit])
@@ -112,5 +117,6 @@ bot.on('message', message=>{
 
 
 })
+
 
 bot.login(process.env.BOT_TOKEN);
