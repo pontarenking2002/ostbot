@@ -1,0 +1,2 @@
+# ostbot
+Ostbot för discord
