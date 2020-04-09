@@ -149,6 +149,13 @@ if(message.content.startsWith('vegan')){
         case 'botinfo':
         message.channel.send(":clock230: Ostbot har varit online " + millisToTime(bot.uptime));
             break;
+        case 'bög':
+        
+        const bog = new Discord.MessageEmbed()
+        .setImage("https://cdn.discordapp.com/attachments/517991725306871817/697886035773751296/unknown.png")
+        .setColor('#fff700')
+        message.channel.send(bog) 
+        break;
 
     }
 
