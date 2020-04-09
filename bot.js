@@ -15,7 +15,8 @@ var pkbilder = [
     "https://cdn.discordapp.com/attachments/557172397946437638/697187390548344902/4100593582630580383.PNG",
     "https://cdn.discordapp.com/attachments/557172397946437638/697187391068438598/4810034613354074273.PNG",
     "https://cdn.discordapp.com/attachments/557172397946437638/697187391458377758/15942013416585093799.JPG",
-    "https://cdn.discordapp.com/attachments/557172397946437638/697187698758123520/Snapchat-251132798.jpg"
+    "https://cdn.discordapp.com/attachments/557172397946437638/697187698758123520/Snapchat-251132798.jpg",
+    "https://cdn.discordapp.com/attachments/697186902754852894/697886778429931651/pk.jpg"
 ];
 var sbilder = [
     " https://cdn.discordapp.com/attachments/557172397946437638/600081374182899717/image0.png",
@@ -88,7 +89,7 @@ if(message.content.startsWith('vegan')){
     switch(args[0]){
         //pk
         case 'pk':
-        var ipk = Math.floor(Math.random()*9)
+        var ipk = Math.floor(Math.random()*10)
         const pk = new Discord.MessageEmbed()
         .setImage(pkbilder[ipk])
         .setColor('#fff700')
