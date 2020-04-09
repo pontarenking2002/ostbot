@@ -40,9 +40,22 @@ var citat = [
     '"Bättre en fågel i handen än 10 i skogen"',
     '"Den som säg i leken ger, får leken tåla"',
     '"En hund är alltid en hund"',
+    '"Man kan inte lära en gammal hund att sitta"',
+    '"Pk är alltid bög oavsett vad"',
+    
 ]
 
 var citb = [
+    "Hasse Hallgren - 1895",
+    "Hasse Hallgren - 1675",
+    "Hasse Hallgren - 1524",
+    "Hasse Hallgren - 1988",
+    "Hasse Hallgren - 2020",
+    "Hasse Hallgren - 1895",
+    "Hasse Hallgren - 1675",
+    "Hasse Hallgren - 1524",
+    "Hasse Hallgren - 1988",
+    "Hasse Hallgren - 2020",
     "Hasse Hallgren - 1895",
     "Hasse Hallgren - 1675",
     "Hasse Hallgren - 1524",
