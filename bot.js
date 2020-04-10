@@ -41,6 +41,7 @@ var citat = [
     '"Bättre en fågel i handen än 10 i skogen"',
     '"Den som säg i leken ger, får leken tåla"',
     '"En hund är alltid en hund"',
+    '"Pk är cool fattaruuuuuu!!"',
     '"Man kan inte lära en gammal hund att sitta"',
     '"Pk är alltid bög oavsett vad"',
     
