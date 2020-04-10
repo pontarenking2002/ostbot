@@ -43,6 +43,8 @@ var citat = [
     '"En hund är alltid en hund"',
     '"Man kan inte lära en gammal hund att sitta"',
     '"Pk är alltid bög oavsett vad"',
+    '"pk är cool fattaruuuu!!!"',
+    
     
 ]
 
